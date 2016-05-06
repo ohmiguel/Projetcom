@@ -1,0 +1,75 @@
+body {
+    background-color:black;
+    background-image: url(images/bg.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 0%;
+ }
+.header {
+    width: 1020px;
+    height: 60px;
+    margin: auto;
+    padding: 0%;
+    background-color: black;
+}
+#menu {
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -1%;
+}
+#menu li {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Josefin Sans',sans-serif;
+    text-align: center;
+    margin: 0px 25px;
+    font-weight: bold;
+}
+#menu li a {
+    text-decoration:none;
+    color: #7a7a7a;
+}
+.titre {
+    background-color: black;
+    width: 1020px;
+    height: 320px;
+    margin: auto;
+    padding: 0%;
+}
+h1 {
+    font-family: 'Josefin Sans',Arial,sans-serif;
+    font-size: 133px;
+    font-weight: normal;
+    text-align: center;
+    color: #cfa205;
+    position: relative;
+    margin: 0%;
+    padding: 5%;
+}
+#PBO {
+    text-align: center;
+    color: #7a7a7a;
+    margin: 0%;
+}
+#PBO li {
+    display: inline-block;
+    color: #cfa205;
+    font-size: 18px;
+    margin: 0px 15px;
+    font-family: 'bitter','Josefin Sans',sans-serif;
+}
+.sociales {
+    background-color: #e8e8e8;
+    width: 1020px;
+    height: 60px;
+    margin: auto;
+    padding: 0%;
+}
+#Icônes {
+    text-align: center;
+    color: #7a7a7a;
+    margin-top: 0%;
+}
+#Icônes li {
+    display: inline-block;
+    margin: 15px 5px;
+}
