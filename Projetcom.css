@@ -4,7 +4,7 @@ body {
     background-repeat:no-repeat;
     background-position: 50% 0%;
  }
-.header {
+#header {
     width: 1020px;
     height: 60px;
     margin: auto;
@@ -44,7 +44,7 @@ h1 {
     font-weight: normal;
     text-align: center;
     color: #cfa205;
-    position: relative;
+    /*position: relative;*/
     margin: 0%;
     padding: 5%;
 }
@@ -55,7 +55,7 @@ h1 {
     margin: 0%;
 }
 #PBO li {
-    list-style-position: unset;
+    /*list-style-position: unset;*/
     display: inline;
     color: #cfa205;
     font-size: 18px;
@@ -80,4 +80,29 @@ h1 {
 #Icônes li {
     display: inline-block;
     margin: 15px 5px;
+}
+section {
+    background-color: yellow;
+    width: 1020px;
+    height: 570px;
+    margin: auto;
+    padding: 0%;
+}
+#middle p {
+    width: 900px;
+    height: 90px;
+    position: relative;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    background-color: green;
+    
+}
+#articles li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: orange;
+}
+.images {
+    margin: 10px;
+    padding: 10px;
 }
