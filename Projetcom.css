@@ -1,8 +1,8 @@
 body {
-    background-color:black;
+    background-color: black;
     background-image: url(images/bg.jpg);
     background-repeat:no-repeat;
-    background-position: 50% 0%;
+    background-position: 50% 20%;
  }
 #header {
     width: 1020px;
@@ -11,12 +11,12 @@ body {
     padding: 0%;
     background-color: black;
 }
-#menu {
+#nav {
     text-align: center;
     padding-top: 15px;
     margin-top: -1%;
 }
-#menu li {
+#nav li {
     display: inline-block;
     font-size: 18px;
     font-family: 'Josefin Sans',sans-serif;
@@ -24,11 +24,11 @@ body {
     margin: 0px 25px;
     font-weight: bold;
 }
-#menu li a {
+#nav li a {
     text-decoration:none;
     color: #7a7a7a;
 }
-#menu li a:hover {
+#nav li a:hover {
     color: #cfa205;
 }
 .titre {
@@ -57,13 +57,16 @@ h1 {
 #PBO li {
     /*list-style-position: unset;*/
     display: inline;
-    color: #cfa205;
     font-size: 18px;
     margin: 0px 15px;
     font-family: 'bitter','Josefin Sans',sans-serif;
 }
 #PBO li:first-child {
     list-style-type: none;
+}
+#PBO li a {
+    text-decoration:none;
+    color: #cfa205;
 }
 .sociales {
     background-color: #e8e8e8;
@@ -82,27 +85,51 @@ h1 {
     margin: 15px 5px;
 }
 section {
-    background-color: yellow;
+    background-color: white;
     width: 1020px;
-    height: 570px;
+    height: 727px;
     margin: auto;
-    padding: 0%;
+    padding: 1% 0%;
 }
 #middle p {
     width: 900px;
     height: 90px;
-    position: relative;
-    margin-bottom: 70px;
-    padding-bottom: 70px;
-    background-color: green;
-    
+    text-align: center;
+    font-family: 'bitter','Josefin Sans',sans-serif;
+    margin: 0% 5%;
+    padding-top: 4%;
+    font-weight: bold;
+    color: #7a7a7a;
 }
-#articles li {
-    display: inline-block;
-    list-style-type: none;
-    background-color: orange;
+.articles {
+    width: 900px;
+    height: 480px;
+    margin: 5% 5%;
 }
-.images {
-    margin: 10px;
-    padding: 10px;
+.articles p {
+    font-family: 'bitter','Josefin Sans',sans-serif;
+    color: #7a7a7a;
+    font-size: 14px;
+}
+#article1 {
+    height: 480px;
+    width: 260px;
+    top: 0;
+    float: left;
+}
+#article2 {
+    height: 480px;
+    width: 260px;
+    float: left;
+    margin: 0% 6%;
+}
+#article3 {
+    height: 480px;
+    width: 260px;
+    top: 0;
+    float: right;
+}
+h5 {
+    font-weight: bold;
+    font-family: 'bitter','Josefin Sans',sans-serif;
 }
